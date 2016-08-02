@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CreateUserViewController : UIViewController
+@interface CreateUserViewController : UIViewController<UITextFieldDelegate>
+@property (nonatomic,strong) UITextField *userName;
+@property (nonatomic,strong) UITextField *password;
+@property (nonatomic,strong) UITextField *passwordAgain;
 
 @end

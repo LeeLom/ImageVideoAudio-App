@@ -10,4 +10,6 @@
 
 @interface videoUploadViewController : UIViewController
 
+@property(nonatomic,strong) NSString *meidaPathtoUpload;
+
 @end

@@ -10,4 +10,7 @@
 
 @interface videoTableViewController : UIViewController
 
+@property (nonatomic,strong) NSArray *videoInfoToPlay;
+@property (nonatomic) NSInteger selectRow;
+
 @end

@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "imageTableViewController.h"
+#import "videoTableViewController.h"
+#import "audioTableViewController.h"
 
-@interface TabbarViewController : UIViewController
+@interface TabbarViewController : UIViewController<UINavigationControllerDelegate>
+
+@property (nonatomic,retain) UITabBarController *tabbarController;
+@property (nonatomic,retain) imageTableViewController *imageTableView;
+@property (nonatomic,retain) videoTableViewController *videoTableView;
+@property (nonatomic,retain) audioTableViewController *audioTableView;
 
 @end

@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "videoUploadViewController.h"
 
-@interface LoginViewController : UIViewController
+@interface LoginViewController : UIViewController<UITextFieldDelegate>
+
+@property (nonatomic,strong) UITextField *userNameTextField;
+@property (nonatomic,strong) UITextField *passwordTextFeild;
+@property (nonatomic,strong) UIImageView *line;
+@property (nonatomic,strong) UIImageView *cam;
 
 @end

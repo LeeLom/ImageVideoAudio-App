@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "videoTableViewController.h"
+#import "TabbarViewController.h"
+#import "videoPlayViewController.h"
+#import "LoginViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +22,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    LoginViewController *viewController = [LoginViewController new];
+    //如果viewController 是LoginViewController 才需要加入下一句nav;如果viewController 是TabbarViewController 它已经有UINavigationController 则不需要加入下一句了
+    UINavigationController  *nav = [[UINavigationController alloc]initWithRootViewController:viewController];
+    self.window.rootViewController = nav;
+    
+    //TabbarViewController  *viewController = [TabbarViewController new];
+    //self.window.rootViewController = viewController;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

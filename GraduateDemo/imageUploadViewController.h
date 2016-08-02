@@ -10,4 +10,7 @@
 
 @interface imageUploadViewController : UIViewController
 
+@property(nonatomic,strong) NSString *meidaPathtoUpload;
+@property(nonatomic,strong) UIImage *imageToUpload;
+
 @end

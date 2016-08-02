@@ -7,15 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E92651995D1F12889688254 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9817449FB01BFC5192B5B91 /* libPods.a */; };
+		E60DBB861CB7D6D100311E25 /* audio.png in Resources */ = {isa = PBXBuildFile; fileRef = E60DBB831CB7D6D100311E25 /* audio.png */; };
+		E60DBB871CB7D6D100311E25 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = E60DBB841CB7D6D100311E25 /* image.png */; };
+		E60DBB881CB7D6D100311E25 /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = E60DBB851CB7D6D100311E25 /* video.png */; };
 		E63E82401CAB644A0068C58D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E63E823F1CAB644A0068C58D /* main.m */; };
 		E63E82431CAB644A0068C58D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63E82421CAB644A0068C58D /* AppDelegate.m */; };
 		E63E82461CAB644A0068C58D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63E82451CAB644A0068C58D /* ViewController.m */; };
 		E63E82491CAB644A0068C58D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63E82471CAB644A0068C58D /* Main.storyboard */; };
 		E63E824B1CAB644A0068C58D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63E824A1CAB644A0068C58D /* Assets.xcassets */; };
 		E63E824E1CAB644A0068C58D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63E824C1CAB644A0068C58D /* LaunchScreen.storyboard */; };
+		E63E82571CAB64810068C58D /* videoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E63E82561CAB64810068C58D /* videoInfo.m */; };
+		E63E825D1CAB68AD0068C58D /* videoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63E825C1CAB68AD0068C58D /* videoTableViewController.m */; };
+		E66F9BA41CBA380E00832F0A /* audioShow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E66F9BA31CBA380E00832F0A /* audioShow.jpg */; };
+		E66F9BA71CBA3C6500832F0A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66F9BA61CBA3C6500832F0A /* LoginViewController.m */; };
+		E6771FA31CED5FB6009D2A68 /* videoUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6771FA21CED5FB6009D2A68 /* videoUploadViewController.m */; };
+		E6D86B501CBB505E009D4171 /* CreateUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D86B4F1CBB505E009D4171 /* CreateUserViewController.m */; };
+		E6D86B521CBB91A3009D4171 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D86B511CBB91A3009D4171 /* password.png */; };
+		E6D86B541CBB91ED009D4171 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D86B531CBB91ED009D4171 /* person.png */; };
+		E6E7A5291CABAF5E001B94B4 /* imageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E7A5281CABAF5E001B94B4 /* imageInfo.m */; };
+		E6E7A52C1CABB350001B94B4 /* imageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E7A52B1CABB350001B94B4 /* imageTableViewController.m */; };
+		E6E7A52F1CABB7F3001B94B4 /* audioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E7A52E1CABB7F3001B94B4 /* audioInfo.m */; };
+		E6E7A5321CABBDFF001B94B4 /* audioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E7A5311CABBDFF001B94B4 /* audioTableViewController.m */; };
+		E6E7A5351CACB9D9001B94B4 /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E7A5341CACB9D9001B94B4 /* TabbarViewController.m */; };
+		E6E7A53E1CACFD18001B94B4 /* takeImageAudioVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E7A53D1CACFD18001B94B4 /* takeImageAudioVideoViewController.m */; };
+		E6E7A5411CACFECC001B94B4 /* personInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E7A5401CACFECC001B94B4 /* personInfoViewController.m */; };
+		E6E7A5441CAD1EA9001B94B4 /* audioRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E7A5431CAD1EA9001B94B4 /* audioRecordViewController.m */; };
+		E6ED8B7B1CF0720000F21F90 /* imageUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ED8B7A1CF0720000F21F90 /* imageUploadViewController.m */; };
+		E6ED8B7E1CF07D2400F21F90 /* audioUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ED8B7D1CF07D2400F21F90 /* audioUploadViewController.m */; };
+		E6FABB611CAE5A8E00A6C2F8 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6FABB601CAE5A8E00A6C2F8 /* 1.jpg */; };
+		E6FABB631CAE5A9500A6C2F8 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6FABB621CAE5A9500A6C2F8 /* 2.jpg */; };
+		E6FABB651CAE5A9C00A6C2F8 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6FABB641CAE5A9C00A6C2F8 /* 3.jpg */; };
+		E6FABB6A1CAE6CA700A6C2F8 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FABB691CAE6CA700A6C2F8 /* libstdc++.6.tbd */; };
+		E6FABB6D1CAE6D8A00A6C2F8 /* videoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FABB6C1CAE6D8A00A6C2F8 /* videoPlayViewController.m */; };
+		E6FABB6F1CAE743900A6C2F8 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FABB6E1CAE743900A6C2F8 /* libbz2.tbd */; };
+		E6FABB711CAE744D00A6C2F8 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FABB701CAE744D00A6C2F8 /* libiconv.2.tbd */; };
+		E6FABB731CAE745D00A6C2F8 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FABB721CAE745D00A6C2F8 /* libz.1.2.5.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		228A0EC31874BBDFCBB8AD0B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AE614443FF7E5A5800A563B8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E60DBB831CB7D6D100311E25 /* audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = audio.png; path = image/audio.png; sourceTree = SOURCE_ROOT; };
+		E60DBB841CB7D6D100311E25 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = image/image.png; sourceTree = SOURCE_ROOT; };
+		E60DBB851CB7D6D100311E25 /* video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = video.png; path = image/video.png; sourceTree = SOURCE_ROOT; };
 		E63E823B1CAB644A0068C58D /* GraduateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraduateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63E823F1CAB644A0068C58D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E63E82411CAB644A0068C58D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +61,49 @@
 		E63E824A1CAB644A0068C58D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E63E824D1CAB644A0068C58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E63E824F1CAB644A0068C58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63E82551CAB64810068C58D /* videoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoInfo.h; sourceTree = "<group>"; };
+		E63E82561CAB64810068C58D /* videoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoInfo.m; sourceTree = "<group>"; };
+		E63E825B1CAB68AD0068C58D /* videoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoTableViewController.h; sourceTree = "<group>"; };
+		E63E825C1CAB68AD0068C58D /* videoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoTableViewController.m; sourceTree = "<group>"; };
+		E66F9BA31CBA380E00832F0A /* audioShow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = audioShow.jpg; path = image/audioShow.jpg; sourceTree = SOURCE_ROOT; };
+		E66F9BA51CBA3C6500832F0A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E66F9BA61CBA3C6500832F0A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E6771FA11CED5FB6009D2A68 /* videoUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoUploadViewController.h; sourceTree = "<group>"; };
+		E6771FA21CED5FB6009D2A68 /* videoUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoUploadViewController.m; sourceTree = "<group>"; };
+		E6D86B4E1CBB505E009D4171 /* CreateUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateUserViewController.h; sourceTree = "<group>"; };
+		E6D86B4F1CBB505E009D4171 /* CreateUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateUserViewController.m; sourceTree = "<group>"; };
+		E6D86B511CBB91A3009D4171 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = password.png; path = image/password.png; sourceTree = SOURCE_ROOT; };
+		E6D86B531CBB91ED009D4171 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = person.png; path = image/person.png; sourceTree = SOURCE_ROOT; };
+		E6E7A5271CABAF5E001B94B4 /* imageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageInfo.h; sourceTree = "<group>"; };
+		E6E7A5281CABAF5E001B94B4 /* imageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageInfo.m; sourceTree = "<group>"; };
+		E6E7A52A1CABB350001B94B4 /* imageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageTableViewController.h; sourceTree = "<group>"; };
+		E6E7A52B1CABB350001B94B4 /* imageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageTableViewController.m; sourceTree = "<group>"; };
+		E6E7A52D1CABB7F3001B94B4 /* audioInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioInfo.h; sourceTree = "<group>"; };
+		E6E7A52E1CABB7F3001B94B4 /* audioInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = audioInfo.m; sourceTree = "<group>"; };
+		E6E7A5301CABBDFF001B94B4 /* audioTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioTableViewController.h; sourceTree = "<group>"; };
+		E6E7A5311CABBDFF001B94B4 /* audioTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = audioTableViewController.m; sourceTree = "<group>"; };
+		E6E7A5331CACB9D9001B94B4 /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		E6E7A5341CACB9D9001B94B4 /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		E6E7A53C1CACFD18001B94B4 /* takeImageAudioVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = takeImageAudioVideoViewController.h; sourceTree = "<group>"; };
+		E6E7A53D1CACFD18001B94B4 /* takeImageAudioVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = takeImageAudioVideoViewController.m; sourceTree = "<group>"; };
+		E6E7A53F1CACFECC001B94B4 /* personInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personInfoViewController.h; sourceTree = "<group>"; };
+		E6E7A5401CACFECC001B94B4 /* personInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = personInfoViewController.m; sourceTree = "<group>"; };
+		E6E7A5421CAD1EA9001B94B4 /* audioRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioRecordViewController.h; sourceTree = "<group>"; };
+		E6E7A5431CAD1EA9001B94B4 /* audioRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = audioRecordViewController.m; sourceTree = "<group>"; };
+		E6ED8B791CF0720000F21F90 /* imageUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageUploadViewController.h; sourceTree = "<group>"; };
+		E6ED8B7A1CF0720000F21F90 /* imageUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageUploadViewController.m; sourceTree = "<group>"; };
+		E6ED8B7C1CF07D2400F21F90 /* audioUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioUploadViewController.h; sourceTree = "<group>"; };
+		E6ED8B7D1CF07D2400F21F90 /* audioUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = audioUploadViewController.m; sourceTree = "<group>"; };
+		E6FABB601CAE5A8E00A6C2F8 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../../Documents/1.jpg; sourceTree = "<group>"; };
+		E6FABB621CAE5A9500A6C2F8 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../../Documents/2.jpg; sourceTree = "<group>"; };
+		E6FABB641CAE5A9C00A6C2F8 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../../../Documents/3.jpg; sourceTree = "<group>"; };
+		E6FABB691CAE6CA700A6C2F8 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		E6FABB6B1CAE6D8A00A6C2F8 /* videoPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = videoPlayViewController.h; path = ../videoPlayViewController.h; sourceTree = "<group>"; };
+		E6FABB6C1CAE6D8A00A6C2F8 /* videoPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = videoPlayViewController.m; path = ../videoPlayViewController.m; sourceTree = "<group>"; };
+		E6FABB6E1CAE743900A6C2F8 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		E6FABB701CAE744D00A6C2F8 /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
+		E6FABB721CAE745D00A6C2F8 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		F9817449FB01BFC5192B5B91 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +111,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FABB731CAE745D00A6C2F8 /* libz.1.2.5.tbd in Frameworks */,
+				E6FABB711CAE744D00A6C2F8 /* libiconv.2.tbd in Frameworks */,
+				E6FABB6F1CAE743900A6C2F8 /* libbz2.tbd in Frameworks */,
+				E6FABB6A1CAE6CA700A6C2F8 /* libstdc++.6.tbd in Frameworks */,
+				0E92651995D1F12889688254 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22D1F05142FAA4943A7C9985 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				228A0EC31874BBDFCBB8AD0B /* Pods.debug.xcconfig */,
+				AE614443FF7E5A5800A563B8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F37F83AF1E8F25848B276FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6FABB721CAE745D00A6C2F8 /* libz.1.2.5.tbd */,
+				E6FABB701CAE744D00A6C2F8 /* libiconv.2.tbd */,
+				E6FABB6E1CAE743900A6C2F8 /* libbz2.tbd */,
+				E6FABB691CAE6CA700A6C2F8 /* libstdc++.6.tbd */,
+				F9817449FB01BFC5192B5B91 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E63E82321CAB644A0068C58D = {
 			isa = PBXGroup;
 			children = (
 				E63E823D1CAB644A0068C58D /* GraduateDemo */,
 				E63E823C1CAB644A0068C58D /* Products */,
+				22D1F05142FAA4943A7C9985 /* Pods */,
+				6F37F83AF1E8F25848B276FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +166,40 @@
 			children = (
 				E63E82411CAB644A0068C58D /* AppDelegate.h */,
 				E63E82421CAB644A0068C58D /* AppDelegate.m */,
+				E66F9BA51CBA3C6500832F0A /* LoginViewController.h */,
+				E66F9BA61CBA3C6500832F0A /* LoginViewController.m */,
+				E6D86B4E1CBB505E009D4171 /* CreateUserViewController.h */,
+				E6D86B4F1CBB505E009D4171 /* CreateUserViewController.m */,
 				E63E82441CAB644A0068C58D /* ViewController.h */,
 				E63E82451CAB644A0068C58D /* ViewController.m */,
+				E6E7A5271CABAF5E001B94B4 /* imageInfo.h */,
+				E6E7A5281CABAF5E001B94B4 /* imageInfo.m */,
+				E63E82551CAB64810068C58D /* videoInfo.h */,
+				E63E82561CAB64810068C58D /* videoInfo.m */,
+				E6E7A52D1CABB7F3001B94B4 /* audioInfo.h */,
+				E6E7A52E1CABB7F3001B94B4 /* audioInfo.m */,
+				E6ED8B7C1CF07D2400F21F90 /* audioUploadViewController.h */,
+				E6ED8B7D1CF07D2400F21F90 /* audioUploadViewController.m */,
+				E6771FA11CED5FB6009D2A68 /* videoUploadViewController.h */,
+				E6771FA21CED5FB6009D2A68 /* videoUploadViewController.m */,
+				E6ED8B791CF0720000F21F90 /* imageUploadViewController.h */,
+				E6ED8B7A1CF0720000F21F90 /* imageUploadViewController.m */,
+				E6E7A52A1CABB350001B94B4 /* imageTableViewController.h */,
+				E6E7A52B1CABB350001B94B4 /* imageTableViewController.m */,
+				E63E825B1CAB68AD0068C58D /* videoTableViewController.h */,
+				E63E825C1CAB68AD0068C58D /* videoTableViewController.m */,
+				E6E7A5301CABBDFF001B94B4 /* audioTableViewController.h */,
+				E6E7A5311CABBDFF001B94B4 /* audioTableViewController.m */,
+				E6E7A53C1CACFD18001B94B4 /* takeImageAudioVideoViewController.h */,
+				E6E7A53D1CACFD18001B94B4 /* takeImageAudioVideoViewController.m */,
+				E6E7A53F1CACFECC001B94B4 /* personInfoViewController.h */,
+				E6E7A5401CACFECC001B94B4 /* personInfoViewController.m */,
+				E6E7A5331CACB9D9001B94B4 /* TabbarViewController.h */,
+				E6E7A5341CACB9D9001B94B4 /* TabbarViewController.m */,
+				E6E7A5421CAD1EA9001B94B4 /* audioRecordViewController.h */,
+				E6E7A5431CAD1EA9001B94B4 /* audioRecordViewController.m */,
+				E6FABB6B1CAE6D8A00A6C2F8 /* videoPlayViewController.h */,
+				E6FABB6C1CAE6D8A00A6C2F8 /* videoPlayViewController.m */,
 				E63E82471CAB644A0068C58D /* Main.storyboard */,
 				E63E824A1CAB644A0068C58D /* Assets.xcassets */,
 				E63E824C1CAB644A0068C58D /* LaunchScreen.storyboard */,
@@ -74,6 +212,15 @@
 		E63E823E1CAB644A0068C58D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E66F9BA31CBA380E00832F0A /* audioShow.jpg */,
+				E60DBB831CB7D6D100311E25 /* audio.png */,
+				E60DBB841CB7D6D100311E25 /* image.png */,
+				E60DBB851CB7D6D100311E25 /* video.png */,
+				E6FABB601CAE5A8E00A6C2F8 /* 1.jpg */,
+				E6FABB621CAE5A9500A6C2F8 /* 2.jpg */,
+				E6D86B531CBB91ED009D4171 /* person.png */,
+				E6D86B511CBB91A3009D4171 /* password.png */,
+				E6FABB641CAE5A9C00A6C2F8 /* 3.jpg */,
 				E63E823F1CAB644A0068C58D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -86,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E63E82521CAB644A0068C58D /* Build configuration list for PBXNativeTarget "GraduateDemo" */;
 			buildPhases = (
+				BBEDE8553D4AECA62D0D010A /* Check Pods Manifest.lock */,
 				E63E82371CAB644A0068C58D /* Sources */,
 				E63E82381CAB644A0068C58D /* Frameworks */,
 				E63E82391CAB644A0068C58D /* Resources */,
+				DB3BD673BD855E343EDA7156 /* Embed Pods Frameworks */,
+				1A743FCDF43D9AAAB3E2BF07 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,22 +287,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D86B521CBB91A3009D4171 /* password.png in Resources */,
+				E6FABB651CAE5A9C00A6C2F8 /* 3.jpg in Resources */,
+				E60DBB871CB7D6D100311E25 /* image.png in Resources */,
 				E63E824E1CAB644A0068C58D /* LaunchScreen.storyboard in Resources */,
 				E63E824B1CAB644A0068C58D /* Assets.xcassets in Resources */,
+				E60DBB861CB7D6D100311E25 /* audio.png in Resources */,
+				E66F9BA41CBA380E00832F0A /* audioShow.jpg in Resources */,
+				E6D86B541CBB91ED009D4171 /* person.png in Resources */,
+				E60DBB881CB7D6D100311E25 /* video.png in Resources */,
 				E63E82491CAB644A0068C58D /* Main.storyboard in Resources */,
+				E6FABB631CAE5A9500A6C2F8 /* 2.jpg in Resources */,
+				E6FABB611CAE5A8E00A6C2F8 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A743FCDF43D9AAAB3E2BF07 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBEDE8553D4AECA62D0D010A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB3BD673BD855E343EDA7156 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E63E82371CAB644A0068C58D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E7A5351CACB9D9001B94B4 /* TabbarViewController.m in Sources */,
 				E63E82461CAB644A0068C58D /* ViewController.m in Sources */,
+				E63E82571CAB64810068C58D /* videoInfo.m in Sources */,
+				E6E7A5411CACFECC001B94B4 /* personInfoViewController.m in Sources */,
+				E6FABB6D1CAE6D8A00A6C2F8 /* videoPlayViewController.m in Sources */,
+				E63E825D1CAB68AD0068C58D /* videoTableViewController.m in Sources */,
+				E6E7A5321CABBDFF001B94B4 /* audioTableViewController.m in Sources */,
+				E6D86B501CBB505E009D4171 /* CreateUserViewController.m in Sources */,
 				E63E82431CAB644A0068C58D /* AppDelegate.m in Sources */,
+				E6E7A5441CAD1EA9001B94B4 /* audioRecordViewController.m in Sources */,
+				E6E7A52F1CABB7F3001B94B4 /* audioInfo.m in Sources */,
 				E63E82401CAB644A0068C58D /* main.m in Sources */,
+				E6771FA31CED5FB6009D2A68 /* videoUploadViewController.m in Sources */,
+				E6E7A52C1CABB350001B94B4 /* imageTableViewController.m in Sources */,
+				E6E7A5291CABAF5E001B94B4 /* imageInfo.m in Sources */,
+				E6E7A53E1CACFD18001B94B4 /* takeImageAudioVideoViewController.m in Sources */,
+				E6ED8B7E1CF07D2400F21F90 /* audioUploadViewController.m in Sources */,
+				E66F9BA71CBA3C6500832F0A /* LoginViewController.m in Sources */,
+				E6ED8B7B1CF0720000F21F90 /* imageUploadViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +421,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -214,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -241,6 +465,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -251,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -260,9 +485,12 @@
 		};
 		E63E82531CAB644A0068C58D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 228A0EC31874BBDFCBB8AD0B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GraduateDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bupt.leelom.GraduateDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,9 +499,12 @@
 		};
 		E63E82541CAB644A0068C58D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE614443FF7E5A5800A563B8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GraduateDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bupt.leelom.GraduateDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +530,7 @@
 				E63E82541CAB644A0068C58D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

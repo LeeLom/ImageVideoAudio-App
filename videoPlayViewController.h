@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "videoInfo.h"
 
 @interface videoPlayViewController : UIViewController
+
+@property (nonatomic,copy) NSString *mediaPath;
+
 
 @end

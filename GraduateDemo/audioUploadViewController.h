@@ -10,4 +10,6 @@
 
 @interface audioUploadViewController : UIViewController
 
+@property(nonatomic,strong) NSString *meidaPathtoUpload;
+
 @end

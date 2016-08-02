@@ -10,4 +10,6 @@
 
 @interface audioRecordViewController : UIViewController
 
+@property (strong,nonatomic) UIProgressView *audioPower;
+
 @end
